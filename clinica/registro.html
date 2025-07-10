@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Registro - PetCare+</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Registro de Dono e Pet</h1>
+
+  <label for="nomeDono">Nome do dono:</label>
+  <input type="text" id="nomeDono" />
+
+  <label for="nomePet">Nome do pet:</label>
+  <input type="text" id="nomePet" />
+
+  <label for="tipoPet">Espécie ou raça:</label>
+  <input type="text" id="tipoPet" />
+
+  <button id="btnRegistrar">Registrar Atendimento</button>
+  <button id="btnLimpar">Limpar Histórico</button>
+
+  <div id="saida"></div>
+
+  <section id="log">
+    <h2>Atendimentos Registrados</h2>
+    <div id="historicoAtendimento"></div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
